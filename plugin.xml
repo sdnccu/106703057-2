@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="jface_tableviewer.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="jface_tableviewer.Perspective"
+            name="RCP Perspective"
+            id="Jface_Viewer.perspective">
+      </perspective>
+   </extension>
+
+</plugin>
